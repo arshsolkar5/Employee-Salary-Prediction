@@ -24,7 +24,7 @@ This project demonstrates the practical use of supervised machine learning model
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/employee-salary-prediction.git
+https://github.com/arshsolkar5/Employee-Salary-Prediction.git
 
 #download ipynb file and dataset csv file
 #Upload files to Google Colab
