@@ -19,22 +19,17 @@ This project demonstrates the practical use of supervised machine learning model
 
 * `Employee Salary Prediction Project.ipynb` – Main Jupyter notebook for model building and evaluation.
 * `complex_employee_data.csv` – Dataset used for training.
-* `app.py` – Streamlit app source code for real-time prediction.
-* `models/` – Folder containing saved models (`.pkl` files).
-* `report_utils/` – Utility functions for PDF generation and visualizations.
 
-### ⚙️ How to Run Locally
+### ⚙️ How to Run 
 
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/employee-salary-prediction.git
-cd employee-salary-prediction
 
+#download ipynb file and dataset csv file
+#Upload files to Google Colab
 # Install dependencies
-pip install -r requirements.txt
-
-# Run the Streamlit app
-streamlit run app.py
+pip install pandas numpy matplotlib seaborn plotly shap scikit-learn xgboost streamlit pyngrok joblib ipywidgets
 ```
 
 ### 📊 Sample Output
@@ -44,13 +39,8 @@ streamlit run app.py
 * Bar charts and comparison plots
 * Downloadable report in PDF format
 
-### 📌 Demo
+App is deployed using **Ngrok**. 
 
-App is deployed using **Ngrok**. Run the following to expose the local server:
-
-```bash
-ngrok http 8501
-```
 
 ---
 
